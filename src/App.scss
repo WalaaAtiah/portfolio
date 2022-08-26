@@ -38,19 +38,24 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-image:url("./background.png");
+	filter: brightness(1.2) invert(.1);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
+	color:rgb(1, 1, 1);
+	font-size:15px;
+	font-weight: bold;
 }
 
 header .nav {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	
 }
 
 .github-corner:hover .octo-arm {
@@ -95,18 +100,18 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: #000000;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #d7aaaa;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #d7bbaa;
 	height: 25px;
 }
 
@@ -120,13 +125,13 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: rgb(224, 179, 179);
 	overflow: hidden;
 }
 
 #about h1 {
 	padding-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 30px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
@@ -139,7 +144,7 @@ header h1 {
 }
 
 .foto div {
-	background: #ffffff;
+	background: #0303032e;
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
@@ -175,11 +180,14 @@ header h1 {
 
 .project-title-settings {
 	margin-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 20px/30px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
 	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px rgb(243, 9, 9);
+
 }
 
 .polaroid img {
@@ -231,7 +239,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background:  #d8bac9;
 }
 
 .experience-icon {
@@ -241,7 +249,7 @@ header h1 {
 }
 
 .main-badge {
-	font-size: 13px !important;
+	font-size: 20px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
@@ -252,11 +260,12 @@ header h1 {
 }
 
 .experience-badge {
-	font-size: 11px !important;
+	
+	font-size: 17px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #f9e9e9 !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -269,7 +278,7 @@ header h1 {
 
 @media only screen and (max-width: 1170px) {
 	.experience-icon {
-		font-size: 170%;
+		font-size: 300%;
 		margin-top: 27%;
 		text-align: center;
 	}
@@ -277,6 +286,7 @@ header h1 {
 
 .modal-inside .modal-content {
 	background: white;
+	
 }
 
 .bars {
@@ -337,7 +347,7 @@ header h1 {
 	text-align: justify;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 30px;
 }
 
 .awssld__next {
@@ -353,7 +363,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background:  rgb(224, 179, 179);
 	padding-bottom: 5%;
 }
 
@@ -390,10 +400,19 @@ header h1 {
 
 #skills {
 	background: #1F1F1F;
+	background-image: url(./background3.png);
+	filter: brightness(0.9) invert(.1);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
 	padding-bottom: 10%;
+	font-size: 100%;
+	
+
 }
 
 .section-title {
@@ -404,11 +423,13 @@ header h1 {
 	letter-spacing: 3px;
 	color: #fff;
 	text-align: center;
+	
 }
 
 .skill-icon {
-	font-size: 180%;
-	color: white;
+	font-size: 300%;
+	font-weight: bold;
+	color: rgb(17, 17, 17);
 	text-align: center;
 	position: relative;
 }
@@ -436,5 +457,5 @@ footer a:focus {
 
 .social-links {
 	margin-top: 10px;
-	font-size: 22px;
+	font-size: 30px;
 }
