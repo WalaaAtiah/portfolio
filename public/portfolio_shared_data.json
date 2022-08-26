@@ -1,20 +1,25 @@
 {
     "basic_info": {
-      "name": "Ursula Lopez",
-      "titles": [ "Software Developer" ],
+      "name": "Walaa' Atiyh",
+      "titles": [ "Software Developer &Electrical engineering "],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/WalaaAtiah",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "facebook",
+          "url": "https://www.facebook.com/people/%D9%88%D9%84%D8%A7%D8%A1-%D8%B9%D8%B7%D9%8A%D8%A9/100002134357943/",
+          "class": "fab fa-facebook"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/walaa-atiah-103aab209",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "rrr.jpg"
     },
     "skills": {
       "icons": [
@@ -28,11 +33,7 @@
           "class": "devicon-css3-plain",
           "level": "95"
         },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
+        
         {
           "name": "TypeScript",
           "class": "devicon-typescript-plain",
@@ -43,26 +44,25 @@
           "class": "devicon-javascript-plain",
           "level": "70"
         },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
+        
         {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
           "level": "85"
         },
+
         {
           "name": "C#",
           "class": "devicon-csharp-plain",
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "matlab",
+          "class": "devicon-matlab-plain",
+          "level": "65"
         }
+        
+        
       ]
     }
   }

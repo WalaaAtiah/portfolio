@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Ursula Lopez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Walaa' Atiah. Software developer engineer, I graduated from the Electrical Engineering Department of the University of Jordan and I follow my dream of becoming a software developer by studying the “Software Development - Python” course  at Luminus Technical University, I motivation person to learn a new concepts and improving my skills ,in fact Iam looking for a peaceful and professional working environment to upgrade my skills and do my best.💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,42 +11,56 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "first react ",
+        "startDate": "2022",
+        "description": "One of the first apps in this 301 “Software Development - Python” cours using React app. I had to develop front-end implementation for app that shows many cards for horned beast and the users can interact with the card, select it to see as modal. And choose which cards needs to see depending on the number of horn inside the image, I learned many techniques and my code was reviewed by a great teacher. ",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/reactApp/react 3.png",
+          "images/portfolio/reactApp/react2.png",
+          "images/portfolio/reactApp/react.png"
         ],
-        "url": "",
+        "url": "https://630760d2c6369c0e949caecd--lively-treacle-9ba400.netlify.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
             "class": "devicon-typescript-plain",
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
+
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "HR-management-system",
+        "startDate": "2022",
+        "description": "One of the first web page I was worked in this  “Software Development - Python course ,using  HTML ,CSS,JavaScrept .this web page Responsible for classifying employees according to job title and there experience level, as well as determining the salary that each employee receives based on specific data.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/HR/HR-Managment2.png",
+          "images/portfolio/HR/HR-Managment.png"
         ],
-        "url": "https://github.com",
+        "url": "https://walaaatiah.github.io/HR-management-system/",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,12 +69,32 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
+        "title": "chocolate_pizza",
+        "startDate": "2022",
+        "description": "One of the tasks taken in the prep “Software Development - Python“ cours,the main goul of this task is to create a web page that matches a given image as closely as possible .",
+        "images": [
+          "images/portfolio/chocolate_pizza/choco-pizza.png",
+          "images/portfolio/chocolate_pizza/PREVIEW.png"
+        ],
+        "url": "https://walaaatiah.github.io/Chocolate-Pizza/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          }
+        ]
+      },
+      {
+        "title": "new in 301 course",
         "startDate": "2015",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/chocolate_pizza/choco-pizza.png",
+          "images/portfolio/chocolate_pizza/PREVIEW.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -81,37 +115,51 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "------- ",
+        "title": "Junior Front-End Developer ",
+        "years": "---------",
         "mainTech": [
-          "Angular 8/9/10"
+          "React app "
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "HTML5",
+         "React app ",
+          "CSS 3", 
+          "TypeScript"
+          
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Efficiency For Engineering And Electrical Equipment  Company ",
+        "title": "Estimation Engineer",
+        "years": "10.2019 - 2.2022",
         "mainTech": [
-          "Angular 7/8"
+          "Microsoft office "
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "1- preparing document related to eligibility for bids ",
+          "2- submission of bid in accordance with special conditions",
+           "in the bid document ",
+          "3- Communicate with manufacturers and analyze specifications",
+           "for electrical equipment ",
+          "4-participate in the pricing process by assisting to engineer", 
+          "responsible for setting the overall and final prices for the bid item. "
+          
+        ]
+      },
+      {
+        "company": "Jordan electrical power company",
+        "title": "Intern",
+        "years": "01.2019 - 04.2019",
+        "mainTech": [
+          
+        ],
+        "technologies": [
+          "SAP",
+          "ARCGIS"
+          
         ]
       }
     ]
