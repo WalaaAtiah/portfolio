@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Experience from "./Experience";
+import Education from "./Education";
 
 class Home extends Component {
   render() {
@@ -19,6 +20,12 @@ class Home extends Component {
           resumeExperience={this.props.resumeData.experience}
           resumeBasicInfo={this.props.resumeData.basic_info}
         />
+        
+        <Education
+          resumeEducation={this.props.resumeData.education}
+          resumeBasicInfo={this.props.resumeData.basic_info}
+        />
+       
       </div>
     );
   }

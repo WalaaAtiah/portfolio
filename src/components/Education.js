@@ -6,13 +6,19 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
-class Experience extends Component {
+class Education extends Component {
   render() {
-    if (this.props.resumeExperience && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.experience;
-      var work = this.props.resumeExperience.map(function (work, i) {
+    if (this.props.resumeEducation && this.props.resumeBasicInfo) {
+        // console.log("resumeEducation",this.props.resumeEducation)
+        // console.log("resumeBasicInfo",this.props.resumeBasicInfo)
+
+      var sectionName = this.props.resumeBasicInfo.section_name.education;
+      var work = this.props.resumeEducation.map(function (work, i) {
         const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+        const mainTechnologies = work.grade;
+
+        // console.log("mainTechnologies",mainTechnologies)
+
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
@@ -21,11 +27,13 @@ class Experience extends Component {
             </Badge>
           );
         });
-        
-        var tech = technologies.map((technology, i) => {
+        console.log("technologies",technologies)
+
+        var tech = technologies.map((item, i) => {
           return (
             <Badge pill className="experience-badge mr-2 mb-2" key={i}>
-              {technology}
+             
+              {item}
             </Badge>
           );
         });
@@ -55,7 +63,7 @@ class Experience extends Component {
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}
             >
-              {work.company}
+              {work.school}
             </h4>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
           </VerticalTimelineElement>
@@ -64,7 +72,7 @@ class Experience extends Component {
     }
 
     return (
-      <section id="resume" className="pb-5">
+      <section id="resume1" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
@@ -94,4 +102,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default Education;

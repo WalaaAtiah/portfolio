@@ -24,14 +24,24 @@
     "skills": {
       "icons": [
         {
+          "name": "github",
+          "class": "devicon-github-original",
+          "level": "95"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "95"
+        },
+        {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
-          "level": "95"
+          "level": "70"
         },
         {
           "name": "CSS 3",
           "class": "devicon-css3-plain",
-          "level": "95"
+          "level": "50"
         },
         
         {
@@ -44,11 +54,25 @@
           "class": "devicon-javascript-plain",
           "level": "70"
         },
-        
+        {
+          "name": "React App",
+          "class": "devicon-react-original",
+          "level": "85"
+        },
         {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
           "level": "85"
+        },
+        {
+          "name": "npm",
+          "class": "devicon-npm-original-wordmark",
+          "level": "40"
+        },
+        {
+          "name": "nodejs",
+          "class": "devicon-nodejs-plain",
+          "level": "40"
         },
 
         {
