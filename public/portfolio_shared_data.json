@@ -66,7 +66,7 @@
         },
         {
           "name": "npm",
-          "class": "devicon-npm-original-wordmark",
+          "class": "devicon-npm-original-wordmark colored",
           "level": "40"
         },
         {
@@ -79,6 +79,10 @@
           "name": "C#",
           "class": "devicon-csharp-plain",
           "level": "65"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "mongoDB "
         },
         {
           "name": "matlab",

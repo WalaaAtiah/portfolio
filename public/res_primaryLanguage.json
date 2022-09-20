@@ -13,8 +13,107 @@
     },
     "projects": [
       {
-        "title": "city-explorer React APP ",
+        "title": "World-Cup 2022 App",
+        "startDate": "15/9/2022",
+        "description": ["the final project in 301 “Software Development - Python” course ,is a team project .we used React app,JavaScript language,and some API to receive data.",
+        " We had created a website for the World Cup held in the State of Qatar that gives information about the teams participating in the league, determines the stadium in which the match will be held and gives the option for the user to find a hotel in the area surrounding the stadium for the match,and finally the fan can add a comment on the match and follow the latest news in the league.we developed full stack application ."],
+
+        "images": [
+          "images/portfolio/WorldCup/image2.png",
+          "images/portfolio/WorldCup/image.png",
+          "images/portfolio/WorldCup/image1.PNG"
+        ],
+        "url": "https://spiffy-dieffenbachia-501bfe.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React App"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "mongoDB "
+          },
+          {
+            "name": "AXIOS library "
+          },
+          {
+            "name": "Country Flag API"
+          },
+          {
+            "name": "rapid API  "
+          }
+
+        ]
+      },
+      {
+        "title": "Books React Application ",
         "startDate": "3/9/2022",
+        "description": ["this project designe in 301 “Software Development - Python” cours using React app,JavaScrept language.Builded out this code base to create an web app to track what books have impacted you, and what's recommended to read next.I developed full stack application  .",
+        " In front-end : The user can add ,update,and delete the books after they login in the application . the users can view the list of books, so that whenever they visit the page, they can see the a full list of best books."," In back-end :The server connect with the mongoAtlas data base to save the list books"],
+
+        "images": [
+          "images/portfolio/books/books1.PNG",
+          "images/portfolio/books/books2.PNG"
+        ],
+        "url": "https://helpful-puppy-3c59aa.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React App"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "mongoDB "
+          },
+          {
+            "name": "AXIOS library "
+          }
+
+        ]
+      },
+      {
+        "title": "city-explorer React APP ",
+        "startDate": "26/8/2022",
         "description": ["this project designe in 301 “Software Development - Python” cours using React app. I had to develop front-end and back-end .",
         " In front-end : The user can search for any city he wants and shows him some information about it : like city's coordinates . Details of the citys location,the citys location on the map,forcasted weather conditions for the upcoming 16 days , and movies with the same city  ."," In back-end :The application 'front-end' sends a request to the 'LocationIQ API',which it sends the coordinates of the city and some information that the app analyze and send the coordinates and city name to the local server 'back-end', which in turn sends a request to “weatherAPI”and 'Movie API' which send weather details and some movies related to the city's name do some analysis then send to the React application."],
 
