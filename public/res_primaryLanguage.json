@@ -138,10 +138,7 @@
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
           },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
+          
           {
             "class": "devicon-bootstrap-plain",
             "name": "Bootstrap"
@@ -188,10 +185,7 @@
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
           },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
+          
           {
             "class": "devicon-bootstrap-plain",
             "name": "Bootstrap"
@@ -259,7 +253,6 @@
           "HTML5",
          "React app ",
           "CSS 3", 
-          "TypeScript",
           "server API",
           "NODE.JS",
           "npm"
@@ -313,12 +306,13 @@
           "HTML5",
          "React app ",
           "CSS 3", 
-          "TypeScript",
           "server API",
           "NODE.JS",
           "npm",
           "front-end-developer",
-          "back-end-developer"
+          "back-end-developer",
+          "mongoDB",
+          "Connecting to a third-party API "
           
         ]
       },
