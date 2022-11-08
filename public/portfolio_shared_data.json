@@ -59,11 +59,6 @@
           "level": "85"
         },
         {
-          "name": "npm",
-          "class": "devicon-npm-original-wordmark colored",
-          "level": "40"
-        },
-        {
           "name": "nodejs",
           "class": "devicon-nodejs-plain",
           "level": "40"
@@ -77,7 +72,11 @@
           "class": "devicon-python-plain",
           "level": "95"
         },
-        
+        {
+          "name": "npm",
+          "class": "devicon-npm-original-wordmark colored",
+          "level": "40"
+        },
         {
           "class": "devicon-jupyter-plain",
           "name": "jupyter "
@@ -91,7 +90,7 @@
           "name": "numpy "
         },
         {
-          "class": "devicon-pandas-original",
+          "class": "devicon-pandas-original colored",
           "name": "pandas "
         },
         {
