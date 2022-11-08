@@ -68,15 +68,31 @@
           "class": "devicon-nodejs-plain",
           "level": "40"
         },
-
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
         {
           "class": "devicon-mongodb-plain",
           "name": "mongoDB "
+        },
+        {
+          "name": "python",
+          "class": "devicon-python-plain",
+          "level": "95"
+        },
+        
+        {
+          "class": "devicon-jupyter-plain",
+          "name": "jupyter "
+        },
+        {
+          "class": "devicon-pytest-plain",
+          "name": "pytest "
+        },
+        {
+          "class": "devicon-numpy-original",
+          "name": "numpy "
+        },
+        {
+          "class": "devicon-pandas-original",
+          "name": "pandas "
         },
         {
           "name": "matlab",
