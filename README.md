@@ -2,7 +2,7 @@
 # Motivation lette
 
 
-<img src="./public/images/rrr.jpg" width="300" height="300">
+<img src="./public/images/walaa.png" width="300" height="400">
 
 ## My name is Walaa' Atiyh.
 
