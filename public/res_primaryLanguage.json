@@ -13,6 +13,35 @@
     },
     "projects": [
       {
+        "title": "Chess Game ",
+        "startDate": "20/11/2022",
+        "description": ["the midterm project in 401 “Software Development - Python” course ,is a team project .we used python language,and pygame library to display the game ",
+        " Create Check Mate game, which has a friendly game interface, and it's develops the mind, develops intellectual skills, provides entertainment, and fills the time with what benefits the mind. The game will also provide a healthy competitive environment so that you can play with your friend."],
+
+        "images": [
+          "images/portfolio/chessgame/main.png",
+          "images/portfolio/chessgame/wireframe.chess (1).png",
+          "images/portfolio/chessgame/thems.png"
+        ],
+        "url": "https://github.com/Chess-Game-ASAC/check-mate",
+        "technologies": [
+          
+          {
+            "class": "devicon-python-plain",
+            "name": "python"
+          },
+          {
+            "class": "devicon-pytest-plain",
+            "name": "pytest"
+          },
+          {
+            "name": "pygame"
+          }
+         
+          
+        ]
+      },
+      {
         "title": "World-Cup 2022 App",
         "startDate": "15/9/2022",
         "description": ["the final project in 301 “Software Development - Python” course ,is a team project .we used React app,JavaScript language,and some API to receive data.",
@@ -245,7 +274,7 @@
         "title": "Junior full -stack Developer ",
         "years": "---------",
         "mainTech": [
-          "React app "
+          "React app ","JavaScript","Python","Django"
         ],
         "technologies": [
           "JavaScript",
@@ -255,7 +284,13 @@
           "CSS 3", 
           "server API",
           "NODE.JS",
-          "npm"
+          "npm",
+          "GitHub",
+          "Git",
+          "mongoDB",
+          "Python",
+          "Django"
+
 
           
         ]

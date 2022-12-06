@@ -68,14 +68,14 @@
           "name": "mongoDB "
         },
         {
-          "name": "python",
-          "class": "devicon-python-plain",
-          "level": "95"
-        },
-        {
           "name": "npm",
           "class": "devicon-npm-original-wordmark colored",
           "level": "40"
+        },
+        {
+          "name": "python",
+          "class": "devicon-python-plain",
+          "level": "95"
         },
         {
           "class": "devicon-jupyter-plain",
@@ -92,6 +92,10 @@
         {
           "class": "devicon-pandas-original colored",
           "name": "pandas "
+        },
+        {
+          "class": "devicon-django-plain",
+          "name": "Django "
         },
         {
           "name": "matlab",
