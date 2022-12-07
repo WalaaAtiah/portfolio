@@ -42,6 +42,36 @@
         ]
       },
       {
+        "title": "Snacks Application",
+        "startDate": "7/12/2022",
+        "description": ["The goal of this application is to collect information about the favorite snacks of the users of the application so that the user can add, update and delete snacks as I have developed a full stack application"],
+
+        "images": [
+          "images/portfolio/snacks/image1.png",
+          "images/portfolio/snacks/image2.png",
+          "images/portfolio/snacks/image3.png",
+          "images/portfolio/snacks/image4.png"
+        ],
+        "url": "https://github.com/WalaaAtiah/snacks_crud",
+        "technologies": [
+          
+          {
+            "class": "devicon-python-plain",
+            "name": "python"
+          },
+          {
+            "class": "devicon-pytest-plain",
+            "name": "pytest"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django "
+          }
+         
+          
+        ]
+      },
+      {
         "title": "World-Cup 2022 App",
         "startDate": "15/9/2022",
         "description": ["the final project in 301 “Software Development - Python” course ,is a team project .we used React app,JavaScript language,and some API to receive data.",
