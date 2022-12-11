@@ -13,6 +13,34 @@
     },
     "projects": [
       {
+        "title": "Djangox_Best-football-players",
+        "startDate": "11/12/2022",
+        "description": ["The aim of this application is to collect information about the best football players as it enables the user to add, update and delete player card."],
+
+        "images": [
+          "images/portfolio/football_player/home1.png",
+          "images/portfolio/football_player/detaile.png",
+          "images/portfolio/football_player/update.png",
+          "images/portfolio/football_player/delete.png",
+          "images/portfolio/football_player/add.png"
+
+        ],
+        "url": "https://github.com/WalaaAtiah/Djangox_Best-football-players",
+        "technologies": [
+          
+          {
+            "class": "devicon-python-plain",
+            "name": "python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django "
+          }
+         
+          
+        ]
+      },
+      {
         "title": "Chess Game ",
         "startDate": "20/11/2022",
         "description": ["the midterm project in 401 “Software Development - Python” course ,is a team project .we used python language,and pygame library to display the game ",
