@@ -49,6 +49,11 @@
           "level": "70"
         },
         {
+          "name": "python",
+          "class": "devicon-python-plain",
+          "level": "95"
+        },
+        {
           "name": "React App",
           "class": "devicon-react-original",
           "level": "85"
@@ -68,15 +73,47 @@
           "name": "mongoDB "
         },
         {
-          "name": "npm",
-          "class": "devicon-npm-original-wordmark colored",
-          "level": "40"
+          "class": "devicon-postgresql-plain",
+          "name": "Postgresql "
         },
         {
-          "name": "python",
-          "class": "devicon-python-plain",
-          "level": "95"
+          "class": "devicon-django-plain",
+          "name": "Django "
         },
+        {
+          
+          "class": "devicon-docker-plain-wordmark",
+          "level": "80"
+        },
+        {
+          
+          "class": "devicon-heroku-plain-wordmark",
+          "level": "80"
+        },
+        {
+          
+          "class": "devicon-linux-plain",
+          "name": "Linux ",
+          "level": "80"
+        },
+        {
+          
+          "class": "devicon-nodejs-plain",
+          "name": "Node JS",
+          "level": "80"
+        },
+        {
+          
+          "class": "devicon-ubuntu-plain",
+          "name": "Ubuntu",
+          "level": "80"
+        },
+        {
+          "name": "npm",
+          "class": "devicon-npm-original-wordmark",
+          "level": "40"
+        },
+       
         {
           "class": "devicon-jupyter-plain",
           "name": "jupyter "
@@ -93,15 +130,14 @@
           "class": "devicon-pandas-original colored",
           "name": "pandas "
         },
+        
+        
+        
         {
-          "class": "devicon-django-plain",
-          "name": "Django "
-        },
-        {
-          "name": "matlab",
-          "class": "devicon-matlab-plain",
-          "level": "65"
+          "class": "devicon-nextjs-original colored",
+          "name": "Next JS "
         }
+        
         
         
       ]

@@ -13,6 +13,44 @@
     },
     "projects": [
       {
+        "title": "Dhikraa App",
+        "startDate": "26/1/2023",
+        "description": ["Dhikraa is an Islamic app that helps Muslims to know the prayer times, read Athkar ALmuslim, listen to Quran with their favorite readers, organize their tasks, and take quizzes to refresh their information or learn something new. 😍 💛 is  final project in 401 “Software Development - Python” course ,is a team project"],
+
+        "images": [
+          "images/portfolio/Dhikraa/image1.png",
+          "images/portfolio/Dhikraa/image2.png",
+          "images/portfolio/Dhikraa/image5.png",
+          "images/portfolio/Dhikraa/image6.png",
+          "images/portfolio/Dhikraa/image8.png",
+          "images/portfolio/Dhikraa/image9.png",
+          "images/portfolio/Dhikraa/image11.png"
+
+        ],
+        "url": "https://dhikraa-frontend-83f5-njo2zr71y-dhikraa-frontend.vercel.app/",
+        "technologies": [
+          
+          {
+            "class": "devicon-python-plain",
+            "name": "python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django "
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "Postgresql "
+          },
+          {
+            "class": "devicon-nextjs-original colored",
+            "name": "Next JS "
+          }
+         
+          
+        ]
+      },
+      {
         "title": "Djangox_Best-football-players",
         "startDate": "11/12/2022",
         "description": ["The aim of this application is to collect information about the best football players as it enables the user to add, update and delete player card."],
@@ -328,26 +366,31 @@
     ],
     "experience": [
       {
-        "company": "------- ",
+        "company": "Abdul Aziz Al Ghurair School of Advanced Computing",
         "title": "Junior full -stack Developer ",
-        "years": "---------",
+        "years": "6.2022 - 2.2023",
         "mainTech": [
           "React app ","JavaScript","Python","Django"
         ],
         "technologies": [
+          "HTML5",
+          "CSS 3", 
           "JavaScript",
           "Bootstrap",
-          "HTML5",
-         "React app ",
-          "CSS 3", 
+          "React app ",
+          "Next JS",
+          "Python",
+          "Django",
+          "Django REST framwork",
           "server API",
           "NODE.JS",
           "npm",
           "GitHub",
           "Git",
           "mongoDB",
-          "Python",
-          "Django"
+          "Postgresql",
+          "sqlite"
+          
 
 
           
@@ -387,25 +430,31 @@
     ],
     "education": [
       {
-        "school": "Luminus Technical University ",
+        "school": "Abdul Aziz Al Ghurair School of Advanced Computing",
         "title": "full stack software developer ",
         "years": "2022-2023",
         "grade": [
-          "very good "
+          "Excellent"
         ],
         "technologies": [
+          "HTML5",
+          "CSS 3", 
           "JavaScript",
           "Bootstrap",
-          "HTML5",
-         "React app ",
-          "CSS 3", 
+          "React app ",
+          "Next JS",
+          "Python",
+          "Django",
+          "Django REST framwork",
           "server API",
           "NODE.JS",
           "npm",
-          "front-end-developer",
-          "back-end-developer",
+          "GitHub",
+          "Git",
           "mongoDB",
-          "Connecting to a third-party API "
+          "Postgresql",
+          "sqlite"
+          
           
         ]
       },
