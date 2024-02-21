@@ -2,7 +2,12 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import nextIcon from "@iconify/icons-logos/nextjs-icon";
+import djangoIcon from '@iconify/icons-logos/django-icon';
+//add icon for nodejs icone use the same @iconify/icons-logos
+import nodejsIcon from '@iconify/icons-logos/nodejs-icon';
+
+
 
 class About extends Component {
   render() {
@@ -31,7 +36,7 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={djangoIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
@@ -39,9 +44,14 @@ class About extends Component {
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={nextIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
+                  <Icon
+                    icon={nodejsIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+               
                 </span>
               </div>
             </div>
@@ -72,8 +82,9 @@ class About extends Component {
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
-                      fontSize: "132%",
+                      fontSize: "200%",
                       lineHeight: "200%",
+                      
                     }}
                   >
                     <br />

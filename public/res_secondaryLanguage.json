@@ -1,52 +1,339 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Ursula Lopez. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Code Fellows. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "السلام عليكم",
+      "description": "👋 أنا ولاء عطية. مهندس مطور برمجيات، تخرجت من قسم الهندسة الكهربائية في الجامعة الأردنية ،وأتبعت حلمي في أن أصبح مطور برمجيات من خلال دراسة دورة تطوير البرمجيات - بايثون في جامعة لومينوس التقنية، احب تعلم كل ما هو جديد، في الحقيقة أنا أبحث عن بيئة عمل هادئة ومهنية لتطوير مهاراتي وبذل قصارى جهدي.💜💜",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "حول",
+        "projects": "المشاريع",
+        "skills": "المهارات التقنية",
+        "experience": "الخبرات العملية",
+        "education": "المؤهلات الأكاديمية"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Dhikraa App",
+        "startDate": "26/1/2023",
+        "description": ["Dhikraa is an Islamic app that helps Muslims to know the prayer times, read Athkar ALmuslim, listen to Quran with their favorite readers, organize their tasks, and take quizzes to refresh their information or learn something new. 😍 💛 is  final project in 401 “Software Development - Python” course ,is a team project"],
+
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/Dhikraa/image1.png",
+          "images/portfolio/Dhikraa/image2.png",
+          "images/portfolio/Dhikraa/image5.png",
+          "images/portfolio/Dhikraa/image6.png",
+          "images/portfolio/Dhikraa/image8.png",
+          "images/portfolio/Dhikraa/image9.png",
+          "images/portfolio/Dhikraa/image11.png"
+
         ],
-        "url": "",
+        "url": "https://dhikraa-frontend-83f5-njo2zr71y-dhikraa-frontend.vercel.app/",
+        "technologies": [
+          
+          {
+            "class": "devicon-python-plain",
+            "name": "python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django "
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "Postgresql "
+          },
+          {
+            "class": "devicon-nextjs-original colored",
+            "name": "Next JS "
+          }
+         
+          
+        ]
+      },
+      {
+        "title": "Djangox_Best-football-players",
+        "startDate": "11/12/2022",
+        "description": ["The aim of this application is to collect information about the best football players as it enables the user to add, update and delete player card."],
+
+        "images": [
+          "images/portfolio/football_player/home1.png",
+          "images/portfolio/football_player/detaile.png",
+          "images/portfolio/football_player/update.png",
+          "images/portfolio/football_player/delete.png",
+          "images/portfolio/football_player/add.png"
+
+        ],
+        "url": "https://github.com/WalaaAtiah/Djangox_Best-football-players",
+        "technologies": [
+          
+          {
+            "class": "devicon-python-plain",
+            "name": "python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django "
+          }
+         
+          
+        ]
+      },
+      {
+        "title": "Chess Game ",
+        "startDate": "20/11/2022",
+        "description": ["the midterm project in 401 “Software Development - Python” course ,is a team project .we used python language,and pygame library to display the game ",
+        " Create Check Mate game, which has a friendly game interface, and it's develops the mind, develops intellectual skills, provides entertainment, and fills the time with what benefits the mind. The game will also provide a healthy competitive environment so that you can play with your friend."],
+
+        "images": [
+          "images/portfolio/chessgame/main.png",
+          "images/portfolio/chessgame/wireframe.chess (1).png",
+          "images/portfolio/chessgame/thems.png"
+        ],
+        "url": "https://github.com/Chess-Game-ASAC/check-mate",
+        "technologies": [
+          
+          {
+            "class": "devicon-python-plain",
+            "name": "python"
+          },
+          {
+            "class": "devicon-pytest-plain",
+            "name": "pytest"
+          },
+          {
+            "name": "pygame"
+          }
+         
+          
+        ]
+      },
+      {
+        "title": "Snacks Application",
+        "startDate": "7/12/2022",
+        "description": ["The goal of this application is to collect information about the favorite snacks of the users of the application so that the user can add, update and delete snacks as I have developed a full stack application"],
+
+        "images": [
+          "images/portfolio/snacks/image1.png",
+          "images/portfolio/snacks/image2.png",
+          "images/portfolio/snacks/image3.png",
+          "images/portfolio/snacks/image4.png"
+        ],
+        "url": "https://github.com/WalaaAtiah/snacks_crud",
+        "technologies": [
+          
+          {
+            "class": "devicon-python-plain",
+            "name": "python"
+          },
+          {
+            "class": "devicon-pytest-plain",
+            "name": "pytest"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django "
+          }
+         
+          
+        ]
+      },
+      {
+        "title": "World-Cup 2022 App",
+        "startDate": "15/9/2022",
+        "description": ["the final project in 301 “Software Development - Python” course ,is a team project .we used React app,JavaScript language,and some API to receive data.",
+        " We had created a website for the World Cup held in the State of Qatar that gives information about the teams participating in the league, determines the stadium in which the match will be held and gives the option for the user to find a hotel in the area surrounding the stadium for the match,and finally the fan can add a comment on the match and follow the latest news in the league.we developed full stack application ."],
+
+        "images": [
+          "images/portfolio/WorldCup/image2.png",
+          "images/portfolio/WorldCup/image.png",
+          "images/portfolio/WorldCup/image1.PNG"
+        ],
+        "url": "https://spiffy-dieffenbachia-501bfe.netlify.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
             "class": "devicon-typescript-plain",
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React App"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "mongoDB "
+          },
+          {
+            "name": "AXIOS library "
+          },
+          {
+            "name": "Country Flag API"
+          },
+          {
+            "name": "rapid API  "
           }
+
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "Books React Application ",
+        "startDate": "3/9/2022",
+        "description": ["this project designe in 301 “Software Development - Python” cours using React app,JavaScrept language.Builded out this code base to create an web app to track what books have impacted you, and what's recommended to read next.I developed full stack application  .",
+        " In front-end : The user can add ,update,and delete the books after they login in the application . the users can view the list of books, so that whenever they visit the page, they can see the a full list of best books."," In back-end :The server connect with the mongoAtlas data base to save the list books"],
+
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/books/books1.PNG",
+          "images/portfolio/books/books2.PNG"
         ],
-        "url": "https://github.com",
+        "url": "https://helpful-puppy-3c59aa.netlify.app/",
         "technologies": [
           {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
             "class": "devicon-react-original",
-            "name": "React"
+            "name": "React App"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "mongoDB "
+          },
+          {
+            "name": "AXIOS library "
+          }
+
+        ]
+      },
+      {
+        "title": "city-explorer React APP ",
+        "startDate": "26/8/2022",
+        "description": ["this project designe in 301 “Software Development - Python” cours using React app. I had to develop front-end and back-end .",
+        " In front-end : The user can search for any city he wants and shows him some information about it : like city's coordinates . Details of the citys location,the citys location on the map,forcasted weather conditions for the upcoming 16 days , and movies with the same city  ."," In back-end :The application 'front-end' sends a request to the 'LocationIQ API',which it sends the coordinates of the city and some information that the app analyze and send the coordinates and city name to the local server 'back-end', which in turn sends a request to “weatherAPI”and 'Movie API' which send weather details and some movies related to the city's name do some analysis then send to the React application."],
+
+        "images": [
+          "images/portfolio/city-ex/city.png",
+          "images/portfolio/city-ex/city2.png",
+          "images/portfolio/city-ex/city3.png",
+          "images/portfolio/city-ex/city4.png",
+          "images/portfolio/city-ex/class10.png"
+        ],
+        "url": "https://darling-smakager-35b900.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React App"
+          },
+          {
+            "name": "weather API "
+          },
+          {
+            "name": "Movies API "
+          },
+          {
+            "name": "locationIQ API "
+          },
+          {
+            "name": "AXIOS library "
+          }
+
+        ]
+      },
+      {
+        "title": "first react ",
+        "startDate": "2022",
+        "description": "One of the first apps in this 301 “Software Development - Python” cours using React app. I had to develop front-end implementation for app that shows many cards for horned beast and the users can interact with the card, select it to see as modal. And choose which cards needs to see depending on the number of horn inside the image, I learned many techniques and my code was reviewed by a great teacher. ",
+        "images": [
+          "images/portfolio/reactApp/react 3.png",
+          "images/portfolio/reactApp/react2.png",
+          "images/portfolio/reactApp/react.png"
+        ],
+        "url": "https://630760d2c6369c0e949caecd--lively-treacle-9ba400.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+
+        ]
+      },
+      {
+        "title": "HR-management-system",
+        "startDate": "2022",
+        "description": "One of the first web page I was worked in this  “Software Development - Python course ,using  HTML ,CSS,JavaScrept .this web page Responsible for classifying employees according to job title and there experience level, as well as determining the salary that each employee receives based on specific data.",
+        "images": [
+          "images/portfolio/HR/HR-Managment2.png",
+          "images/portfolio/HR/HR-Managment.png"
+        ],
+        "url": "https://walaaatiah.github.io/HR-management-system/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,62 +342,153 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "chocolate_pizza",
+        "startDate": "2022",
+        "description": "One of the tasks taken in the prep “Software Development - Python“ cours,the main goul of this task is to create a web page that matches a given image as closely as possible .",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/chocolate_pizza/choco-pizza.png",
+          "images/portfolio/chocolate_pizza/PREVIEW.png"
         ],
-        "url": "https://github.com",
+        "url": "https://walaaatiah.github.io/Chocolate-Pizza/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           }
         ]
       }
+
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Abdul Aziz Al Ghurair School of Advanced Computing",
+        "title": "Junior full -stack Developer ",
+        "years": "6.2022 - 2.2023",
         "mainTech": [
-          "Angular 8/9/10"
+          "React app ","JavaScript","Python","Django"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "HTML5",
+          "CSS 3", 
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "React app ",
+          "Next JS",
+          "Python",
+          "Django",
+          "Django REST framwork",
+          "server API",
+          "NODE.JS",
+          "npm",
+          "GitHub",
+          "Git",
+          "mongoDB",
+          "Postgresql",
+          "sqlite"
+          
+
+
+          
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Efficiency For Engineering And Electrical Equipment  Company ",
+        "title": "Estimation Engineer",
+        "years": "10.2019 - 2.2022",
         "mainTech": [
-          "Angular 7/8"
+          "Microsoft office "
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "1- preparing document related to eligibility for bids ",
+          "2- submission of bid in accordance with special conditions",
+           "in the bid document ",
+          "3- Communicate with manufacturers and analyze specifications",
+           "for electrical equipment ",
+          "4-participate in the pricing process by assisting to engineer", 
+          "responsible for setting the overall and final prices for the bid item. "
+          
+        ]
+      },
+      {
+        "company": "Jordan electrical power company",
+        "title": "Intern",
+        "years": "01.2019 - 04.2019",
+        "mainTech": [
+          
+        ],
+        "technologies": [
+          "SAP",
+          "ARCGIS"
+          
         ]
       }
+    ],
+    "education": [
+      {
+        "school": "Abdul Aziz Al Ghurair School of Advanced Computing",
+        "title": "full stack software developer ",
+        "years": "2022-2023",
+        "grade": [
+          "Excellent"
+        ],
+        "technologies": [
+          "HTML5",
+          "CSS 3", 
+          "JavaScript",
+          "Bootstrap",
+          "React app ",
+          "Next JS",
+          "Python",
+          "Django",
+          "Django REST framwork",
+          "server API",
+          "NODE.JS",
+          "npm",
+          "GitHub",
+          "Git",
+          "mongoDB",
+          "Postgresql",
+          "sqlite"
+          
+          
+        ]
+      },
+      {
+        "school": "University of Jordan ",
+        "title": "ELECTRICAL Engineering  ",
+        "years": "2014-2019",
+        "grade": [
+          "very good "
+        ],
+        "technologies": [
+          "MATLAB",
+          "PV-SYS",
+          "SketchUP",
+          "assembly language ",
+          "C++ language", 
+          "embedded language",
+          "ETAP",
+          "AutoCAD",
+          "Revit"
+          
+        ]
+      },
+      {
+        "school": "Om Hani Secondary School",
+        "title": "Scientific sector ",
+        "years": "2013-2014",
+        "grade": [
+          "91.4% "
+        ],
+        "technologies": [
+          "   "
+          
+        ]
+      }
+      
     ]
   }
