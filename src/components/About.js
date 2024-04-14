@@ -10,6 +10,7 @@ import nodejsIcon from '@iconify/icons-logos/nodejs-icon';
 
 class About extends Component {
   render() {
+    console.log('about',this.props.lang)
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
     }
@@ -83,11 +84,20 @@ class About extends Component {
                       height: "auto",
                       fontSize: "200%",
                       lineHeight: "200%",
+                      // make the text in the right
+                      textAlign: this.props.lang ? "left" : "right"
                       
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    
+                    <span className="wave" 
+                    style={{
+                     
+
+                      
+                    }}
+                    >{hello} :) </span>
                     <br />
                     <br />
                     {about}

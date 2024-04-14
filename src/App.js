@@ -15,8 +15,10 @@ class App extends Component {
       foo: "bar",
       resumeData: {},
       sharedData: {},
+      lang:true
     };
   }
+
 
   applyPickedLanguage = (pickedLanguage, oppositeLangIconId) => {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
@@ -25,6 +27,8 @@ class App extends Component {
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
         : `res_secondaryLanguage.json`;
+      this.setState({ lang: document.documentElement.lang === window.$primaryLanguage });
+      
     this.loadResumeFromPath(resumePath);
   }
 
@@ -78,6 +82,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.lang)
     return (
       <Router>
         <Header sharedData={this.state.sharedData.basic_info} />
@@ -87,6 +92,7 @@ class App extends Component {
             element={<Home
               resumeData={this.state.resumeData}
               sharedData={this.state.sharedData}
+
             />}>
           </Route>
           <Route 
@@ -94,6 +100,7 @@ class App extends Component {
             element={<About
               resumeBasicInfo={this.state.resumeData.basic_info}
               sharedBasicInfo={this.state.sharedData.basic_info}
+              lang={this.state.lang}
             />}>
           </Route>
         </Routes>
